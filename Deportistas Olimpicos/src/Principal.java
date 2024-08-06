@@ -1,5 +1,5 @@
 public class Principal {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         // - // - // - // Creación de Objetos // - // - // - //
 
@@ -9,6 +9,8 @@ public class Principal {
 
         Nadador B = new Nadador ("Sarah Frederica", "Sjöström", 90723435, 30, "Natación", 'F', "Suecia", "Oro", 23.71 ,"50m Estilo Libre Femenino");
 
+        //Borra esto y añade aquí a tu boxeador/a y Tenista
+        
 
         // - // - // - // Uso de Objetos // - // - // - //
 
