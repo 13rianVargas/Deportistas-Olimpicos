@@ -19,8 +19,5 @@ public class Gimnasta extends Deportista {
     public void setTipoDeGimnasia(String tipoDeGimnasia) {
         this.tipoDeGimnasia = tipoDeGimnasia;
     }
-
-    
-
     
 }
