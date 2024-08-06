@@ -101,7 +101,7 @@ public class Deportista{
 
     //Cree esta clase para mostrar info pero toca ponerla mas bonita
     public String mostrarDatos(){
-        return "Nombre: " + nombres + " Apellidos: " + apellidos + " Numero de identidad: " + numeroDeIdentidad + " Edad: "+ edad+" Deporte: " + deporte+" Sexo: " + sexo + " Pais: " + pais + " Medalla:"+ medalla + " Puntuicaoin: " +  puntuacion;
+        return "Nombre: " + nombres + " Apellidos: " + apellidos + " Numero de identidad: " + numeroDeIdentidad + " Edad: "+ edad+" Deporte: " + deporte+" Sexo: " + sexo + " Pais: " + pais + " Medalla: "+ medalla + " Puntuicaoin: " +  puntuacion;
     }
     
 }
