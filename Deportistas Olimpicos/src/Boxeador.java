@@ -11,10 +11,6 @@ public class Boxeador extends Deportista {
         this.categoriaCompeticion = categoriaCompeticion;
     }
 
-    public String getcategoriaCompeticion() {
-        return categoriaCompeticion;
-    }
-
     @Override
     public String mostrarDatos(){
         return "Nombre: " + nombres + " Apellidos: " + apellidos + " Numero de identidad: " + numeroDeIdentidad + " Edad: "+ edad+" Deporte: " + deporte+" Sexo: " + sexo + " Pais: " + pais + " Medalla:"+ medalla + " Puntuicaoin: " +  puntuacion + " Categoria de combate: "+ categoriaCompeticion;
