@@ -1,4 +1,4 @@
-package tipoDeportista;
+
 public class Deportista{
 
     String nombre;
