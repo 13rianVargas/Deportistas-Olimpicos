@@ -9,7 +9,7 @@ public class Principal {
 
         Nadador B = new Nadador ("Sarah Frederica", "Sjöström", 90723435, 30, "Natación", 'F', "Suecia", "Oro", 23.71 ,"50m Estilo Libre Femenino");
 
-        // Si no estoy mal asi es el poliformismo crear objeto deportista, son datos de prueba ahorita lo arreglo xd 
+        // Si no estoy mal asi es el poliformismo crear objeto deportista, ya lo arregle
         Deportista C = new Tenista("María Camila", "Osorio Serrano", 199078122, 22, "Tenis", 'F',"Colombia", "No gano medallas", 84 , "Individual Femenino");
 
         Deportista D = new Boxeador("Lewis", "Richardson", 890039193, 27, "Boxeo", 'M', "Inglaterra", "Bronce", 3.181, "Peso wélter masculino");

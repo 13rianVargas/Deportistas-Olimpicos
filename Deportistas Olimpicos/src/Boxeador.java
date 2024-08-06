@@ -7,6 +7,10 @@ public class Boxeador extends Deportista {
         this.categoriaCompeticion = categoriaCompeticion;
     }
 
+    public void setCategoriaCompeticion(String categoriaCompeticion) {
+        this.categoriaCompeticion = categoriaCompeticion;
+    }
+
     public String getcategoriaCompeticion() {
         return categoriaCompeticion;
     }
