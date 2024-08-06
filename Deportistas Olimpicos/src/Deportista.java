@@ -1,26 +1,51 @@
-
 public class Deportista{
 
-    String nombre;
+    // - // - // - // Atributos // - // - // - //
+    String nombres;
+    String apellidos;
+    int numeroDeIdentidad;
     int edad;
     String deporte;
     char sexo;
     String pais;
+    int marcaPersonal;
     
-    public Deportista(String nombre, int edad, String deporte, char sexo, String pais) {
-        this.nombre = nombre;
+
+    // - // - // - // Constructor // - // - // - //
+    public Deportista(String nombres, String apellidos, int numeroDeIdentidad, int edad, String deporte, char sexo, String pais) {
+        this.nombres = nombres;
+        this.apellidos = apellidos;
+        this.numeroDeIdentidad = numeroDeIdentidad;
         this.edad = edad;
         this.deporte = deporte;
         this.sexo = sexo;
         this.pais = pais;
     }
 
-    public String getNombre() {
-        return nombre;
+
+    // - // - // - // Getters & Setters // - // - // - //
+    public String getNombres() {
+        return nombres;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    public int getNumeroDeIdentidad() {
+        return numeroDeIdentidad;
+    }
+
+    public void setNumeroDeIdentidad(int numeroDeIdentidad) {
+        this.numeroDeIdentidad = numeroDeIdentidad;
     }
 
     public int getEdad() {
@@ -53,6 +78,14 @@ public class Deportista{
 
     public void setPais(String pais) {
         this.pais = pais;
+    }
+
+    public int getMarcaPersonal() {
+        return marcaPersonal;
+    }
+
+    public void setMarcaPersonal(int marcaPersonal) {
+        this.marcaPersonal = marcaPersonal;
     }
 
 }
