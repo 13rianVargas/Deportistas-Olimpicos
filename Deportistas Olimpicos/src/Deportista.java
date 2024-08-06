@@ -8,11 +8,12 @@ public class Deportista{
     String deporte;
     char sexo;
     String pais;
-    int marcaPersonal;
+    String medalla;
+    double puntuacion;
     
 
     // - // - // - // Constructor // - // - // - //
-    public Deportista(String nombres, String apellidos, int numeroDeIdentidad, int edad, String deporte, char sexo, String pais) {
+    public Deportista(String nombres, String apellidos, int numeroDeIdentidad, int edad, String deporte, char sexo,String pais, String medalla, double puntuacion) {
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.numeroDeIdentidad = numeroDeIdentidad;
@@ -20,6 +21,8 @@ public class Deportista{
         this.deporte = deporte;
         this.sexo = sexo;
         this.pais = pais;
+        this.medalla = medalla;
+        this.puntuacion = puntuacion;
     }
 
 
@@ -80,12 +83,20 @@ public class Deportista{
         this.pais = pais;
     }
 
-    public int getMarcaPersonal() {
-        return marcaPersonal;
+    public String getMedalla() {
+        return medalla;
     }
 
-    public void setMarcaPersonal(int marcaPersonal) {
-        this.marcaPersonal = marcaPersonal;
+    public void setMedalla(String medalla) {
+        this.medalla = medalla;
+    }
+
+    public double getPuntuacion() {
+        return puntuacion;
+    }
+
+    public void setPuntuacion(double puntuacion) {
+        this.puntuacion = puntuacion;
     }
 
 }
