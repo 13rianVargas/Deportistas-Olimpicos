@@ -1,3 +1,9 @@
+// - // - // - // Nombres y Códigos // - // - // - //
+
+//  Nicole Alejandra Durán Quintero   - 506232726 //
+//    Brian Steven Vargas Clavijo     - 506232730 //
+// Daniel Felipe Betancourt Rodríguez - 506232008 //
+
 public class Principal {
     public static void main(String[] args) {
 

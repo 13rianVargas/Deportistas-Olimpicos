@@ -25,6 +25,7 @@ public class Deportista{
         this.puntuacion = puntuacion;
     }
 
+
     // - // - // - // Getters & Setters // - // - // - //
     public String getNombres() {
         return nombres;
@@ -98,6 +99,7 @@ public class Deportista{
         this.puntuacion = puntuacion;
     }
 
+    
     // - // - // - // Métodos // - // - // - //
     public String mostrarDatos(){
         return "\n\nNombres: " + nombres + "\nApellidos: " + apellidos + "\nNúmero de identidad: " + numeroDeIdentidad + "\nEdad: "+ edad + "\nDeporte: " + deporte+"\nSexo: " + sexo + "\nPaís: " + pais + "\nMedalla: "+ medalla + "\nPuntuación: " +  puntuacion + "\nTipo de Competencia: " + categoriaCompeticion + "\n";
