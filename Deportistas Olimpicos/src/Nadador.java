@@ -1,7 +1,7 @@
 public class Nadador extends Deportista {
 
     // - // - // - // Atributos // - // - // - //
-    String tipoDeNatación;
+    private String tipoDeNatación;
 
 
     // - // - // - // Constructor // - // - // - //
@@ -20,4 +20,11 @@ public class Nadador extends Deportista {
         this.tipoDeNatación = tipoDeNatación;
     }
     
+
+    // - // - // - // Métodos // - // - // - //
+    @Override
+    public String mostrarDatos(){
+        return "\n\nNombres: " + nombres + "\nApellidos: " + apellidos + "\nNúmero de identidad: " + numeroDeIdentidad + "\nEdad: "+ edad + "\nDeporte: " + deporte+"\nSexo: " + sexo + "\nPaís: " + pais + "\nMedalla: "+ medalla + "\nPuntuación: " +  puntuacion + "\nTipo de Competencia: " + tipoDeNatación + "\n";
+    }
+
 }

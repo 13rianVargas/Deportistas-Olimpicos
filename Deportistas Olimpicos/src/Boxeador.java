@@ -1,18 +1,30 @@
 public class Boxeador extends Deportista {
-  private String categoriaCompeticion;
+    
+    // - // - // - // Atributos // - // - // - //
+    private String categoriaCompeticion;
 
-    public Boxeador(String nombres, String apellidos, int numeroDeIdentidad, int edad, String deporte, char sexo,
-            String pais, String medalla, double puntuacion, String categoriaCompeticion) {
+    
+    // - // - // - // Constructor // - // - // - //
+    public Boxeador(String nombres, String apellidos, int numeroDeIdentidad, int edad, String deporte, char sexo, String pais, String medalla, double puntuacion, String categoriaCompeticion) {
         super(nombres, apellidos, numeroDeIdentidad, edad, deporte, sexo, pais, medalla, puntuacion);
         this.categoriaCompeticion = categoriaCompeticion;
+    }
+
+
+    // - // - // - // Getters & Setters // - // - // - //
+    public String getCategoriaCompeticion() {
+        return categoriaCompeticion;
     }
 
     public void setCategoriaCompeticion(String categoriaCompeticion) {
         this.categoriaCompeticion = categoriaCompeticion;
     }
+    
 
+    // - // - // - // Métodos // - // - // - //
     @Override
     public String mostrarDatos(){
-        return "Nombre: " + nombres + " Apellidos: " + apellidos + " Numero de identidad: " + numeroDeIdentidad + " Edad: "+ edad+" Deporte: " + deporte+" Sexo: " + sexo + " Pais: " + pais + " Medalla:"+ medalla + " Puntuicaoin: " +  puntuacion + " Categoria de combate: "+ categoriaCompeticion;
+        return "\n\nNombres: " + nombres + "\nApellidos: " + apellidos + "\nNúmero de identidad: " + numeroDeIdentidad + "\nEdad: "+ edad + "\nDeporte: " + deporte+"\nSexo: " + sexo + "\nPaís: " + pais + "\nMedalla: "+ medalla + "\nPuntuación: " +  puntuacion + "\nTipo de Competencia: " + categoriaCompeticion + "\n";
     }
+
 }

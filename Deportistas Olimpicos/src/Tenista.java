@@ -1,17 +1,30 @@
 public class Tenista extends Deportista {
+
+    // - // - // - // Atributos // - // - // - //
     private String tipoCompeticion;
 
+
+    // - // - // - // Constructor // - // - // - //
     public Tenista(String nombres, String apellidos, int numeroDeIdentidad, int edad, String deporte, char sexo, String pais, String medalla, double puntuacion, String tipoCompeticion) {
         super(nombres, apellidos, numeroDeIdentidad, edad, deporte, sexo, pais, medalla, puntuacion);
         this.tipoCompeticion = tipoCompeticion;
     }
 
-    public String gettipoCompeticion() {
+
+    // - // - // - // Getters & Setters // - // - // - //
+    public String getTipoCompeticion() {
         return tipoCompeticion;
     }
 
+    public void setTipoCompeticion(String tipoCompeticion) {
+        this.tipoCompeticion = tipoCompeticion;
+    }
+
+
+    // - // - // - // Métodos // - // - // - //
     @Override
     public String mostrarDatos(){
-        return "Nombre: " + nombres + " Apellidos: " + apellidos + " Numero de identidad: " + numeroDeIdentidad + " Edad: "+ edad+" Deporte: " + deporte+" Sexo: " + sexo + " Pais: " + pais + " Medalla:"+ medalla + " Puntuicaoin: " +  puntuacion + " Tipo de Competencia: "+ tipoCompeticion;
+        return "\n\nNombres: " + nombres + "\nApellidos: " + apellidos + "\nNúmero de identidad: " + numeroDeIdentidad + "\nEdad: "+ edad + "\nDeporte: " + deporte+"\nSexo: " + sexo + "\nPaís: " + pais + "\nMedalla: "+ medalla + "\nPuntuación: " +  puntuacion + "\nTipo de Competencia: " + tipoCompeticion + "\n";
     }
+
 }

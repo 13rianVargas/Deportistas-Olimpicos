@@ -1,7 +1,7 @@
 public class Gimnasta extends Deportista {
 
     // - // - // - // Atributos // - // - // - //
-    String tipoDeGimnasia;
+    private String tipoDeGimnasia;
 
 
     // - // - // - // Constructor // - // - // - //
@@ -20,4 +20,9 @@ public class Gimnasta extends Deportista {
         this.tipoDeGimnasia = tipoDeGimnasia;
     }
     
+
+    // - // - // - // Métodos // - // - // - //
+    public String mostrarDatos(){
+        return "\n\nNombres: " + nombres + "\nApellidos: " + apellidos + "\nNúmero de identidad: " + numeroDeIdentidad + "\nEdad: "+ edad + "\nDeporte: " + deporte+"\nSexo: " + sexo + "\nPaís: " + pais + "\nMedalla: "+ medalla + "\nPuntuación: " +  puntuacion + "\nTipo de Competencia: " + tipoDeGimnasia + "\n";
+    }
 }

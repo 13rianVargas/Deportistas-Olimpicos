@@ -1,15 +1,15 @@
 public class Deportista{
 
     // - // - // - // Atributos // - // - // - //
-    String nombres;
-    String apellidos;
-    int numeroDeIdentidad;
-    int edad;
-    String deporte;
-    char sexo;
-    String pais;
-    String medalla;
-    double puntuacion;
+    protected String nombres;
+    protected String apellidos;
+    protected int numeroDeIdentidad;
+    protected int edad;
+    protected String deporte;
+    protected char sexo;
+    protected String pais;
+    protected String medalla;
+    protected double puntuacion;
     
 
     // - // - // - // Constructor // - // - // - //
@@ -24,7 +24,6 @@ public class Deportista{
         this.medalla = medalla;
         this.puntuacion = puntuacion;
     }
-
 
     // - // - // - // Getters & Setters // - // - // - //
     public String getNombres() {
@@ -99,9 +98,9 @@ public class Deportista{
         this.puntuacion = puntuacion;
     }
 
-    //Cree esta clase para mostrar info pero toca ponerla mas bonita
+    // - // - // - // Métodos // - // - // - //
     public String mostrarDatos(){
-        return "Nombre: " + nombres + " Apellidos: " + apellidos + " Numero de identidad: " + numeroDeIdentidad + " Edad: "+ edad+" Deporte: " + deporte+" Sexo: " + sexo + " Pais: " + pais + " Medalla: "+ medalla + " Puntuicaoin: " +  puntuacion;
+        return "\n\nNombres: " + nombres + "\nApellidos: " + apellidos + "\nNúmero de identidad: " + numeroDeIdentidad + "\nEdad: "+ edad + "\nDeporte: " + deporte+"\nSexo: " + sexo + "\nPaís: " + pais + "\nMedalla: "+ medalla + "\nPuntuación: " +  puntuacion + "\nTipo de Competencia: " + categoriaCompeticion + "\n";
     }
     
 }
